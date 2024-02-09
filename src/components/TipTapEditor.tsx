@@ -19,6 +19,11 @@ const TipTapEditor = (props: Props) => {
       setEditorState(editor.getHTML());
     },
   });
+
+  
+
+  // React.useEffect
+
   return (
     <>
       <div className="flex">
